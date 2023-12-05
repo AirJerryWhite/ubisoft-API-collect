@@ -68,7 +68,7 @@ Authorization = 获取凭证(header={'Authorization': 'Basic 加密后的账号�
 | sessionKey                    | str                |            |
 | rememberMeTicket              | <br />未启用记住密码：null |            |
 
-*后续请求接口时将请求头中的`Authorization`更改为 `Ubi_v1 t={ticket}`,`ticket`为json回复中的`ticket`字段的值。*
+*后续请求接口时将请求头中的`Authorization`更改为 `Ubi_v1 t=ticket`,`ticket`为json回复中的`ticket`字段的值。*
 
 ***凭证持续时间待测***
 
