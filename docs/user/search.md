@@ -37,6 +37,7 @@
 curl -G 'https://public-ubiservices.ubi.com/v2/profiles' \
 --data-urlencode 'nameOnPlatform=AirJerryWhite&platformType=uplay'
 ```
+
 <details>
 <summary>查看响应示例：</summary>
 
@@ -53,6 +54,7 @@ curl -G 'https://public-ubiservices.ubi.com/v2/profiles' \
   ]
 }
 ```
+
 </details>
 
 查询`PSN`玩家`CowGhostSnakeGod`的用户档案。
@@ -61,6 +63,7 @@ curl -G 'https://public-ubiservices.ubi.com/v2/profiles' \
 curl -G 'https://public-ubiservices.ubi.com/v2/profiles' \
 --data-urlencode 'nameOnPlatform=CowGhostSnakeGod&platformType=psn'
 ```
+
 <details>
 <summary>查看响应示例：</summary>
 
@@ -77,6 +80,7 @@ curl -G 'https://public-ubiservices.ubi.com/v2/profiles' \
   ]
 }
 ```
+
 </details>
 
 查询`XBOX`玩家`CowGhostSnakeGod`的用户档案。
@@ -85,6 +89,7 @@ curl -G 'https://public-ubiservices.ubi.com/v2/profiles' \
 curl -G 'https://public-ubiservices.ubi.com/v2/profiles' \
 --data-urlencode 'nameOnPlatform=CowGhostSnakeGod&platformType=xbl'
 ```
+
 <details>
 <summary>查看响应示例：</summary>
 
@@ -93,4 +98,5 @@ curl -G 'https://public-ubiservices.ubi.com/v2/profiles' \
   "profiles": []
 }
 ```
+
 </details>
